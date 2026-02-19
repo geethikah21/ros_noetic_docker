@@ -1,0 +1,1 @@
+docker compose build --build-arg CUSTOM_UID=$(id -u) --build-arg CUSTOM_GID=$(id -g)
