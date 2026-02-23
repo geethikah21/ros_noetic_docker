@@ -1,6 +1,12 @@
 # ros_noetic_docker
 
-This provides a minimal Docker environment for running ROS Noetic. To use, put this repository inside the top-level directory of your ROS workspace folder. The workspace folder should be named (`fast_calib_ws`).
+This provides a minimal Docker environment for running ROS Noetic.
+
+# Usage
+
+Put this repository inside the top-level directory of your ROS workspace folder. The workspace folder should be named (`fast_calib_ws`). First build the container, then start it. Once the container is started, you can open up any # of terminals using `./noetic_attach`.
+
+To stop the container, run `./noetic_kill`.
 
 # Commands
 
