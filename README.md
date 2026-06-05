@@ -51,8 +51,6 @@ To run commands inside the Docker container (such as `catkin build` or any ROS c
 
 `./noetic_attach.sh`
 
-**NOTE**: will need to run `source /opt/ros/noetic/setup.bash` in each terminal
-
 ## Stopping the Container
 
 `./noetic_kill.sh`

@@ -50,4 +50,8 @@ RUN sudo apt-get update && sudo apt-get install -y \
     mesa-utils \
     && sudo rm -rf /var/lib/apt/lists/*
 
+# Set up ROS sourcing
+RUN echo "source /opt/ros/noetic/setup.bash" >> /home/${CUSTOM_USERNAME}/.bashrc && \
+    echo "source /opt/ros/noetic/setup.bash" >> /home/${CUSTOM_USERNAME}/.profile
+
 CMD ["bash"]
